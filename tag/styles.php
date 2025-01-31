@@ -7,7 +7,7 @@ function custom_tag_fields_styles() {
         }
 
         .container {
-            background-color: #2a2a2a;
+            background-color: var(--theme-palette-color-8);
             padding: 20px;
             display: flex;
             align-items: center;
@@ -41,7 +41,6 @@ function custom_tag_fields_styles() {
         }
 
         .info h1 {
-            color: white;
             margin: 0;
         }
 
@@ -55,6 +54,7 @@ function custom_tag_fields_styles() {
             display: flex;
             justify-content: space-between;
             width: 100%;
+            gap: 20px;
         }
 
         .info-box {
@@ -66,7 +66,7 @@ function custom_tag_fields_styles() {
 
         .info .info-title {
             font-size: 10px;
-            color: #8e8e8e;
+            color: var(--theme-palette-color-5);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -74,7 +74,7 @@ function custom_tag_fields_styles() {
 
         .info .info-value {
             font-size: 18px;
-            color: white;
+            color: var(--theme-palette-color-3);
         }
 
         @media only screen and (max-width: 992px) {

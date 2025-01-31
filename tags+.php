@@ -2,7 +2,7 @@
 /*
 Plugin Name: Tags+ Solo Calcio Femminile
 Description: Aggiunge campi personalizzati per i tag WordPress (Giocatrice, Squadra ...).
-Version: 1.4.1
+Version: 1.5.1
 Author: isbre
 Text Domain: tags-plus-solo-calcio-femminile
 Domain Path: /languages
